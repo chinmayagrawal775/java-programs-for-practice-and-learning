@@ -1,0 +1,10 @@
+class filemanagement
+{
+  public static void main(String args[])
+  {
+    String filename="myfile.txt";
+    FileWriter fw new FileWriter(filename,true);
+    fw.write("this is written by java program");
+    fw.close();
+  }
+}

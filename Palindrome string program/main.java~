@@ -1,0 +1,10 @@
+class main
+{
+  public static void main(String args[])
+  {
+    Scanner obj new Scanner(System.in);
+    String s = obj.nextInt();
+    int l = s.length();
+    s.charAt(s.length());
+  }
+}
